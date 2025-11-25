@@ -1,0 +1,1418 @@
+[25Nov2025 12:41:03.588] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[25Nov2025 12:41:03.591] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[25Nov2025 12:41:14.786] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Nov2025 12:41:14.919] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/CEVICRAFT/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[25Nov2025 12:41:15.529] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CEVICRAFT/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[25Nov2025 12:41:15.532] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CEVICRAFT/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Nov2025 12:41:15.533] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CEVICRAFT/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Nov2025 12:41:15.534] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CEVICRAFT/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Nov2025 12:41:16.335] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[25Nov2025 12:41:16.337] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 18 dependencies adding them to mods collection
+[25Nov2025 12:41:20.220] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Nov2025 12:41:20.554] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[25Nov2025 12:41:20.555] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
+[25Nov2025 12:41:20.561] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[25Nov2025 12:41:20.938] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.25.1+mc1.20.1: 98 options available, 0 override(s) found
+[25Nov2025 12:41:20.941] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[25Nov2025 12:41:20.968] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[25Nov2025 12:41:21.225] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Nov2025 12:41:21.543] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[25Nov2025 12:41:21.799] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Nov2025 12:41:21.811] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Nov2025 12:41:22.189] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[25Nov2025 12:41:22.190] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[25Nov2025 12:41:22.190] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[25Nov2025 12:41:22.569] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[25Nov2025 12:41:22.569] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[25Nov2025 12:41:22.999] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER
+[25Nov2025 12:41:23.000] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/MultiPlayerGameMode (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER)
+[25Nov2025 12:41:23.000] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.MultiPlayerGameMode was not found mixins.cofhcore.json:MultiPlayerGameModeMixin
+[25Nov2025 12:41:23.697] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[25Nov2025 12:41:24.446] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (28.66 s after launch)
+[25Nov2025 12:41:24.841] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Nov2025 12:41:24.842] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Nov2025 12:41:27.255] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2806 milliseconds
+[25Nov2025 12:41:27.778] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Nov2025 12:41:27.779] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Nov2025 12:41:27.807] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Nov2025 12:41:27.807] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[25Nov2025 12:41:30.617] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[25Nov2025 12:41:32.011] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[25Nov2025 12:41:32.012] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id powah:packet
+[25Nov2025 12:41:32.179] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[25Nov2025 12:41:32.182] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[25Nov2025 12:41:32.362] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.13.
+[25Nov2025 12:41:32.467] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[25Nov2025 12:41:32.468] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[25Nov2025 12:41:32.471] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[25Nov2025 12:41:32.798] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[25Nov2025 12:41:32.841] [modloading-worker-0/INFO] [STDOUT/]: [com.cursee.monolib.core.sailing.warden.SailingWarden:processDirectoryOrFilePathStrings:24]: No matching files were found.
+[25Nov2025 12:41:32.870] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[25Nov2025 12:41:33.459] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[25Nov2025 12:41:33.460] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[25Nov2025 12:41:33.503] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[25Nov2025 12:41:33.512] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[25Nov2025 12:41:33.513] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[25Nov2025 12:41:33.514] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[25Nov2025 12:41:33.516] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[25Nov2025 12:41:33.522] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[25Nov2025 12:41:33.523] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[25Nov2025 12:41:33.525] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[25Nov2025 12:41:33.615] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[25Nov2025 12:41:33.616] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[25Nov2025 12:41:35.053] [modloading-worker-0/INFO] [zeta/]: Doing super early config setup for zeta
+[25Nov2025 12:41:35.076] [modloading-worker-0/INFO] [STDOUT/]: [com.enderio.core.EnderCore:onConstruct:25]: ================ Core construct ==================
+[25Nov2025 12:41:35.081] [modloading-worker-0/INFO] [STDOUT/]: [com.enderio.conduits.EIOConduits:onConstruct:30]: ================ Conduits construct ==================
+[25Nov2025 12:41:35.086] [modloading-worker-0/INFO] [net.permutated.pylons.Pylons/]: Registering mod: pylons
+[25Nov2025 12:41:35.117] [modloading-worker-0/INFO] [net.permutated.pylons.Pylons/]: Registered 1 network packets
+[25Nov2025 12:41:35.121] [modloading-worker-0/INFO] [quark/]: Initializing TerraBlender underground biome compat
+[25Nov2025 12:41:35.153] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[25Nov2025 12:41:35.353] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[25Nov2025 12:41:35.354] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[25Nov2025 12:41:35.359] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[25Nov2025 12:41:35.360] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[25Nov2025 12:41:35.366] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[25Nov2025 12:41:35.377] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[25Nov2025 12:41:35.385] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[25Nov2025 12:41:35.385] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[25Nov2025 12:41:35.385] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[25Nov2025 12:41:35.386] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[25Nov2025 12:41:35.393] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[25Nov2025 12:41:35.393] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[25Nov2025 12:41:35.394] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[25Nov2025 12:41:35.398] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[25Nov2025 12:41:35.399] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[25Nov2025 12:41:35.399] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[25Nov2025 12:41:35.411] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[25Nov2025 12:41:35.413] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[25Nov2025 12:41:35.415] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[25Nov2025 12:41:35.415] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[25Nov2025 12:41:35.417] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[25Nov2025 12:41:35.417] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[25Nov2025 12:41:35.417] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[25Nov2025 12:41:35.418] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[25Nov2025 12:41:35.418] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[25Nov2025 12:41:35.420] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[25Nov2025 12:41:35.421] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[25Nov2025 12:41:35.422] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[25Nov2025 12:41:35.424] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[25Nov2025 12:41:35.425] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[25Nov2025 12:41:35.425] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[25Nov2025 12:41:35.427] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[25Nov2025 12:41:35.448] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[25Nov2025 12:41:35.450] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[25Nov2025 12:41:35.451] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[25Nov2025 12:41:35.455] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[25Nov2025 12:41:35.456] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[25Nov2025 12:41:35.456] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[25Nov2025 12:41:35.458] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[25Nov2025 12:41:35.459] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[25Nov2025 12:41:35.459] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[25Nov2025 12:41:35.460] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[25Nov2025 12:41:35.460] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[25Nov2025 12:41:35.461] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[25Nov2025 12:41:35.461] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[25Nov2025 12:41:35.462] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[25Nov2025 12:41:35.462] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[25Nov2025 12:41:35.463] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[25Nov2025 12:41:35.465] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[25Nov2025 12:41:35.466] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[25Nov2025 12:41:35.467] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[25Nov2025 12:41:35.468] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[25Nov2025 12:41:35.469] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[25Nov2025 12:41:35.471] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[25Nov2025 12:41:35.478] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[25Nov2025 12:41:35.484] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[25Nov2025 12:41:35.485] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[25Nov2025 12:41:35.486] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[25Nov2025 12:41:35.495] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[25Nov2025 12:41:35.496] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[25Nov2025 12:41:35.512] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[25Nov2025 12:41:35.512] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[25Nov2025 12:41:35.514] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[25Nov2025 12:41:35.515] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[25Nov2025 12:41:35.517] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[25Nov2025 12:41:35.521] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[25Nov2025 12:41:35.522] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[25Nov2025 12:41:35.523] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[25Nov2025 12:41:35.524] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[25Nov2025 12:41:35.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[25Nov2025 12:41:35.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[25Nov2025 12:41:35.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[25Nov2025 12:41:35.526] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[25Nov2025 12:41:35.526] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[25Nov2025 12:41:35.527] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[25Nov2025 12:41:35.528] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[25Nov2025 12:41:35.535] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[25Nov2025 12:41:35.536] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[25Nov2025 12:41:35.536] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[25Nov2025 12:41:35.536] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[25Nov2025 12:41:35.537] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[25Nov2025 12:41:35.537] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[25Nov2025 12:41:35.538] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[25Nov2025 12:41:35.540] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[25Nov2025 12:41:35.541] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[25Nov2025 12:41:35.548] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[25Nov2025 12:41:35.548] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[25Nov2025 12:41:35.549] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[25Nov2025 12:41:35.549] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[25Nov2025 12:41:35.549] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[25Nov2025 12:41:35.550] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[25Nov2025 12:41:35.550] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[25Nov2025 12:41:35.551] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[25Nov2025 12:41:35.551] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[25Nov2025 12:41:35.552] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
+[25Nov2025 12:41:35.552] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[25Nov2025 12:41:35.552] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[25Nov2025 12:41:35.553] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[25Nov2025 12:41:35.554] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[25Nov2025 12:41:35.557] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[25Nov2025 12:41:35.558] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[25Nov2025 12:41:35.558] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[25Nov2025 12:41:35.558] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[25Nov2025 12:41:35.559] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[25Nov2025 12:41:35.559] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[25Nov2025 12:41:35.561] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[25Nov2025 12:41:35.564] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[25Nov2025 12:41:35.566] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[25Nov2025 12:41:35.568] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[25Nov2025 12:41:35.571] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[25Nov2025 12:41:35.572] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[25Nov2025 12:41:35.575] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[25Nov2025 12:41:35.576] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[25Nov2025 12:41:35.576] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[25Nov2025 12:41:35.577] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[25Nov2025 12:41:35.577] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[25Nov2025 12:41:35.578] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[25Nov2025 12:41:35.579] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[25Nov2025 12:41:35.581] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[25Nov2025 12:41:35.581] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[25Nov2025 12:41:35.581] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[25Nov2025 12:41:35.583] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[25Nov2025 12:41:35.584] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[25Nov2025 12:41:35.586] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[25Nov2025 12:41:35.594] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[25Nov2025 12:41:35.595] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[25Nov2025 12:41:35.595] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[25Nov2025 12:41:35.595] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[25Nov2025 12:41:35.597] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[25Nov2025 12:41:35.599] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[25Nov2025 12:41:35.599] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[25Nov2025 12:41:35.601] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[25Nov2025 12:41:35.601] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[25Nov2025 12:41:35.602] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[25Nov2025 12:41:35.603] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[25Nov2025 12:41:35.603] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[25Nov2025 12:41:35.604] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[25Nov2025 12:41:35.606] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[25Nov2025 12:41:35.607] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[25Nov2025 12:41:35.607] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[25Nov2025 12:41:35.608] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[25Nov2025 12:41:35.609] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[25Nov2025 12:41:35.611] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[25Nov2025 12:41:35.613] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[25Nov2025 12:41:35.614] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[25Nov2025 12:41:35.615] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[25Nov2025 12:41:35.616] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[25Nov2025 12:41:35.617] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[25Nov2025 12:41:35.617] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[25Nov2025 12:41:35.618] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[25Nov2025 12:41:35.619] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[25Nov2025 12:41:35.619] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[25Nov2025 12:41:35.633] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[25Nov2025 12:41:35.643] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[25Nov2025 12:41:35.644] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[25Nov2025 12:41:35.646] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[25Nov2025 12:41:35.647] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[25Nov2025 12:41:35.662] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[25Nov2025 12:41:35.662] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[25Nov2025 12:41:35.665] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[25Nov2025 12:41:35.666] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[25Nov2025 12:41:35.667] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[25Nov2025 12:41:35.668] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[25Nov2025 12:41:35.669] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[25Nov2025 12:41:35.670] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[25Nov2025 12:41:35.672] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[25Nov2025 12:41:35.812] [modloading-worker-0/INFO] [quark-zeta/]: Doing super early config setup for quark
+[25Nov2025 12:41:38.737] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:menu: The object net.minecraft.world.inventory.MenuType@3a43832a has been registered twice for the same name ae2:export_card.
+[25Nov2025 12:41:38.737] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:menu: The object net.minecraft.world.inventory.MenuType@7a21cb92 has been registered twice for the same name ae2:insert_card.
+[25Nov2025 12:41:40.050] [main/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ae2wtlib:cycle_terminal
+[25Nov2025 12:41:40.051] [main/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ae2wtlib:pick_block
+[25Nov2025 12:41:40.051] [main/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ae2wtlib:terminal_settings
+[25Nov2025 12:41:40.306] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[25Nov2025 12:41:40.332] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[25Nov2025 12:41:40.381] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[25Nov2025 12:41:40.540] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[25Nov2025 12:41:40.541] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[25Nov2025 12:41:42.537] [modloading-worker-0/INFO] [com.gpumemleakfix.Gpumemleakfix/]: gpumemleakfix mod initialized
+[25Nov2025 12:41:42.537] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[25Nov2025 12:41:42.769] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[25Nov2025 12:41:42.944] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.4.16 initializing...
+[25Nov2025 12:41:43.082] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[25Nov2025 12:41:43.099] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[25Nov2025 12:41:43.100] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[25Nov2025 12:41:43.161] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[25Nov2025 12:41:43.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.21.3 Target: null
+[25Nov2025 12:41:43.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[25Nov2025 12:41:43.261] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.59 Target: null
+[25Nov2025 12:41:43.262] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[25Nov2025 12:41:43.384] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "json" is null
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:185) ~[fmlcore-1.20.1-47.3.7.jar%23298!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23298!/:?]
+[25Nov2025 12:41:43.387] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[25Nov2025 12:41:43.591] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[25Nov2025 12:41:43.591] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[25Nov2025 12:41:43.592] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[25Nov2025 12:41:43.593] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[25Nov2025 12:41:43.726] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[25Nov2025 12:41:43.727] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[25Nov2025 12:41:43.727] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[25Nov2025 12:41:43.727] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[25Nov2025 12:41:43.727] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[25Nov2025 12:41:43.727] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[25Nov2025 12:41:43.727] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[25Nov2025 12:41:43.745] [main/INFO] [zeta/]: Common setup: Performing initial refresh of zeta's config on thread 'main'
+[25Nov2025 12:41:43.746] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[25Nov2025 12:41:43.747] [main/INFO] [zeta/]: Waiting for server start before accepting filewatcher changes to zeta's config
+[25Nov2025 12:41:43.754] [main/INFO] [terrablender/]: Registered region quark:biome_provider to index 4 for type OVERWORLD
+[25Nov2025 12:41:43.754] [main/INFO] [quark-zeta/]: Common setup: Performing initial refresh of quark's config on thread 'main'
+[25Nov2025 12:41:43.767] [main/INFO] [quark-zeta/]: Waiting for server start before accepting filewatcher changes to quark's config
+[25Nov2025 12:41:43.885] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[25Nov2025 12:41:43.885] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[25Nov2025 12:41:44.192] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 34 compatible attributes.
+[25Nov2025 12:41:44.196] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 34 values from config.
+[25Nov2025 12:41:44.203] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 34 entries.
+[25Nov2025 12:41:44.203] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 34 attributes.
+[25Nov2025 12:41:44.212] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[25Nov2025 12:41:44.213] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[25Nov2025 12:41:44.213] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[25Nov2025 12:41:44.221] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[25Nov2025 12:41:44.221] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[25Nov2025 12:41:44.372] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[25Nov2025 12:41:44.372] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[25Nov2025 12:41:44.435] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.113.1 Target: 1.116.2
+[25Nov2025 12:41:44.435] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[25Nov2025 12:41:44.532] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[25Nov2025 12:41:44.532] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[25Nov2025 12:41:44.629] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[25Nov2025 12:41:44.629] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Nov2025 12:41:44.745] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[25Nov2025 12:41:44.745] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/main/cofh_core/update.json
+[25Nov2025 12:41:44.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 11.0.2 Target: null
+[25Nov2025 12:41:44.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/main/thermal/update.json
+[25Nov2025 12:41:44.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: AHEAD Current: 11.0.6 Target: null
+[25Nov2025 12:41:44.836] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_foundation] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_foundation.json
+[25Nov2025 12:41:44.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_foundation] Found status: AHEAD Current: 11.0.6 Target: null
+[25Nov2025 12:41:44.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_expansion] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_expansion.json
+[25Nov2025 12:41:44.894] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_expansion] Found status: UP_TO_DATE Current: 11.0.1 Target: null
+[25Nov2025 12:41:44.894] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://maxhenkel.de/update/trade_cycling.json
+[25Nov2025 12:41:44.974] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Nov2025 12:41:45.480] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: UP_TO_DATE Current: 1.20.1-1.0.7 Target: null
+[25Nov2025 12:41:45.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[25Nov2025 12:41:45.526] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/CEVICRAFT/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23297!/assets/.mcassetsroot' uses unexpected schema
+[25Nov2025 12:41:45.526] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/CEVICRAFT/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23297!/data/.mcassetsroot' uses unexpected schema
+[25Nov2025 12:41:45.579] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.23 Target: 1.20.1-1.1.39
+[25Nov2025 12:41:45.579] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pipez] Starting version check at https://update.maxhenkel.de/forge/pipez
+[25Nov2025 12:41:45.677] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pipez] Found status: AHEAD Current: 1.20.1-1.2.26 Target: null
+[25Nov2025 12:41:45.677] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[25Nov2025 12:41:45.849] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:579) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.3.7.jar%23298!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.3.7.jar%23298!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23298!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sat Sep 06 14:33:56 UTC 2025
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274) ~[?:?]
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:621) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:632) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1132) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1127) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1093) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[25Nov2025 12:41:45.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[25Nov2025 12:41:45.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[25Nov2025 12:41:45.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[25Nov2025 12:41:46.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[25Nov2025 12:41:46.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[25Nov2025 12:41:46.192] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
+[25Nov2025 12:41:48.111] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[25Nov2025 12:41:48.114] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[25Nov2025 12:41:48.114] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[25Nov2025 12:41:48.122] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[25Nov2025 12:41:48.122] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[25Nov2025 12:41:48.123] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[25Nov2025 12:41:48.123] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[25Nov2025 12:41:48.124] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[25Nov2025 12:41:48.124] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[25Nov2025 12:41:48.124] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[25Nov2025 12:41:48.124] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[25Nov2025 12:41:48.125] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[25Nov2025 12:41:48.125] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[25Nov2025 12:41:48.125] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[25Nov2025 12:41:48.125] [main/INFO] [AE2:C/]: Scanning class de.mari_023.ae2wtlib.AE2WTLibTestPlots for plots
+[25Nov2025 12:41:49.796] [Worker-Main-2/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 10.616267 ms
+[25Nov2025 12:41:50.355] [main/INFO] [STDOUT/]: [earth.terrarium.botarium.common.energy.EnergyApi:finalizeItemRegistration:54]: Finalizing energy item registration
+[25Nov2025 12:41:50.356] [main/INFO] [STDOUT/]: [earth.terrarium.botarium.common.fluid.FluidApi:finalizeItemRegistration:55]: Finalizing fluid item registration
+[25Nov2025 12:41:50.579] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[25Nov2025 12:41:50.740] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[25Nov2025 12:41:50.874] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe enderio:rs_cable as it's serializer returned null
+[25Nov2025 12:41:50.923] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[25Nov2025 12:41:50.941] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[25Nov2025 12:41:50.995] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[25Nov2025 12:41:51.087] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[25Nov2025 12:41:51.173] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[25Nov2025 12:41:51.220] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[25Nov2025 12:41:51.237] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 119 recipes
+[25Nov2025 12:41:51.283] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_mason_table_upgrade_from_storage_chipped_mason_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/mason_table_upgrade'
+[25Nov2025 12:41:51.292] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_glassblower_upgrade_from_storage_chipped_glassblower_upgrade: Unknown item id 'sophisticatedstorage:chipped/glassblower_upgrade'
+[25Nov2025 12:41:51.295] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_carpenters_table_upgrade_from_backpack_chipped_carpenters_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/carpenters_table_upgrade'
+[25Nov2025 12:41:51.309] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_alchemy_bench_upgrade_from_backpack_chipped_alchemy_bench_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/alchemy_bench_upgrade'
+[25Nov2025 12:41:51.325] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_loom_table_upgrade_from_storage_chipped_loom_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/loom_table_upgrade'
+[25Nov2025 12:41:51.365] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_botanist_workbench_upgrade_from_backpack_chipped_botanist_workbench_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/botanist_workbench_upgrade'
+[25Nov2025 12:41:51.374] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_tinkering_table_upgrade_from_backpack_chipped_tinkering_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/tinkering_table_upgrade'
+[25Nov2025 12:41:51.417] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_loom_table_upgrade_from_backpack_chipped_loom_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/loom_table_upgrade'
+[25Nov2025 12:41:51.422] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_carpenters_table_upgrade_from_storage_chipped_carpenters_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/carpenters_table_upgrade'
+[25Nov2025 12:41:51.469] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_botanist_workbench_upgrade_from_storage_chipped_botanist_workbench_upgrade: Unknown item id 'sophisticatedstorage:chipped/botanist_workbench_upgrade'
+[25Nov2025 12:41:51.471] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_glassblower_upgrade_from_backpack_chipped_glassblower_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/glassblower_upgrade'
+[25Nov2025 12:41:51.475] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_mason_table_upgrade_from_backpack_chipped_mason_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/mason_table_upgrade'
+[25Nov2025 12:41:51.485] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_tinkering_table_upgrade_from_storage_chipped_tinkering_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/tinkering_table_upgrade'
+[25Nov2025 12:41:51.487] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_alchemy_bench_upgrade_from_storage_chipped_alchemy_bench_upgrade: Unknown item id 'sophisticatedstorage:chipped/alchemy_bench_upgrade'
+[25Nov2025 12:41:51.546] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 7460 advancements
+[25Nov2025 12:41:51.560] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[25Nov2025 12:41:51.572] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[25Nov2025 12:41:51.579] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[25Nov2025 12:41:51.582] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[25Nov2025 12:41:51.584] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[25Nov2025 12:41:51.590] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
+[25Nov2025 12:41:51.591] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
+[25Nov2025 12:41:51.591] [main/INFO] [Dungeon Crawl/]: Loading data...
+[25Nov2025 12:41:51.916] [main/INFO] [Dungeon Crawl/]: Done.
+[25Nov2025 12:41:51.935] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 66 materials in 5.529267 ms
+[25Nov2025 12:41:51.938] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 50 materials in 3.300603 ms
+[25Nov2025 12:41:51.950] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 11.354215 ms
+[25Nov2025 12:41:51.963] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 12.223214 ms
+[25Nov2025 12:41:52.021] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 58.51571 ms
+[25Nov2025 12:41:52.026] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 4.516318 ms
+[25Nov2025 12:41:52.026] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.650954 ms
+[25Nov2025 12:41:52.032] [main/INFO] [tconstruct/]: Loaded 62 spilling fluids in 4.925973 ms
+[25Nov2025 12:41:52.033] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 1.483045 ms
+[25Nov2025 12:41:52.034] [main/INFO] [enderio/]: Data loader for eio_soul/spawner loaded 73 jsons
+[25Nov2025 12:41:52.035] [main/INFO] [enderio/]: Data loader for eio_soul/engine loaded 5 jsons
+[25Nov2025 12:41:52.038] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[25Nov2025 12:41:52.038] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[25Nov2025 12:41:52.038] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[25Nov2025 12:41:52.038] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[25Nov2025 12:41:52.039] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[25Nov2025 12:41:52.039] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[25Nov2025 12:41:52.039] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[25Nov2025 12:41:52.039] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[25Nov2025 12:41:52.040] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[25Nov2025 12:41:52.044] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[25Nov2025 12:41:52.047] [main/INFO] [botania/]: Loaded 30 Loonium configurations
+[25Nov2025 12:41:52.061] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 13.782501 ms
+[25Nov2025 12:41:52.066] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 4.450857 ms
+[25Nov2025 12:41:52.171] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[25Nov2025 12:41:52.495] [main/WARN] [ModernFix/]: Initial datapack load took 6.929 s
+[25Nov2025 12:41:52.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Nov2025 12:41:52.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Nov2025 12:41:52.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Nov2025 12:41:52.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Nov2025 12:41:52.714] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Nov2025 12:41:52.756] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Nov2025 12:41:52.854] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Nov2025 12:41:52.855] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Nov2025 12:41:52.855] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Nov2025 12:41:52.855] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Nov2025 12:41:53.024] [Server thread/INFO] [zeta/]: Server starting, accepting filewatcher changes for zeta's config
+[25Nov2025 12:41:53.025] [Server thread/INFO] [quark-zeta/]: Server starting, accepting filewatcher changes for quark's config
+[25Nov2025 12:41:53.612] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[25Nov2025 12:41:53.613] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[25Nov2025 12:41:53.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Nov2025 12:41:53.762] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[25Nov2025 12:41:54.165] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:0 potentially creating overlapping structures detected. Structure sets: [twilightforest:dark_tower, minecraft:mineshafts, twilightforest:final_castle, twilightforest:large_hollow_hill, twilightforest:mushroom_tower, twilightforest:hedge_maze, minecraft:buried_treasures, twilightforest:aurora_palace, twilightforest:naga_courtyard, twilightforest:labyrinth, twilightforest:lich_tower, twilightforest:yeti_cave, twilightforest:quest_grove, twilightforest:small_hollow_hill, minecraft:strongholds, twilightforest:troll_cave, twilightforest:medium_hollow_hill, twilightforest:knight_stronghold, twilightforest:hydra_lair]
+[25Nov2025 12:41:54.165] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:783 potentially creating overlapping structures detected. Structure sets: [nova_structures:taverns, nova_structures:badlands_miner_outpost]
+[25Nov2025 12:41:54.165] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387312 potentially creating overlapping structures detected. Structure sets: [minecraft:villages, nova_structures:villages_jungle, nova_structures:villages_swamp]
+[25Nov2025 12:41:54.166] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387313 potentially creating overlapping structures detected. Structure sets: [minecraft:ocean_monuments, dungeoncrawl:dungeons, minecraft:end_cities]
+[25Nov2025 12:41:54.166] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:4533232 potentially creating overlapping structures detected. Structure sets: [nova_structures:illager_camp, nova_structures:nether_camps]
+[25Nov2025 12:41:54.166] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:239021 potentially creating overlapping structures detected. Structure sets: [nova_structures:desert_ruins, nova_structures:jungle_ruins]
+[25Nov2025 12:41:54.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Nov2025 12:41:55.601] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2025 12:41:55.603] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2025 12:41:55.604] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2025 12:41:55.700] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2025 12:41:56.172] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Nov2025 12:41:56.386] [Server thread/INFO] [STDOUT/]: [earth.terrarium.botarium.common.energy.EnergyApi:finalizeBlockRegistration:39]: Finalizing energy block registration
+[25Nov2025 12:41:56.386] [Server thread/INFO] [STDOUT/]: [earth.terrarium.botarium.common.fluid.FluidApi:finalizeBlockRegistration:42]: Finalizing fluid block registration
+[25Nov2025 12:41:56.667] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2496 ms
+[25Nov2025 12:41:56.667] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.797s)! For help, type "help"
+[25Nov2025 12:41:56.813] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Nov2025 12:41:56.945] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[25Nov2025 12:41:56.959] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[25Nov2025 12:41:56.996] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[25Nov2025 12:41:56.996] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[25Nov2025 12:41:56.996] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[25Nov2025 12:41:56.997] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[25Nov2025 12:41:57.046] [Server thread/ERROR] [mekanism.common.Mekanism/]: Incomplete recipe detected: mekanism:crushing/venus_sandstone_to_venus_sand
+[25Nov2025 12:41:57.046] [Server thread/ERROR] [mekanism.common.Mekanism/]: Empty item ingredient: {"tag":"forge:sandstone/venus_sandstone"}
+[25Nov2025 12:41:57.059] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[25Nov2025 12:41:57.062] [Server thread/WARN] [ModernFix/]: Dedicated server took 61.273 seconds to load
+[25Nov2025 12:44:59.519] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[25Nov2025 12:44:59.588] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iWawiwu195[/127.146.18.249:59675] logged in with entity id 155 at (30.624493051569793, 77.5, -23.019413170231026)
+[25Nov2025 12:44:59.709] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player iWawiwu195
+[25Nov2025 12:44:59.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  joined the game
+[25Nov2025 12:45:10.799] [Server thread/INFO] [do_a_barrel_roll/]: Client of iWawiwu195 accepted server config.
+[25Nov2025 12:50:17.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Sweet Dreams]
+[25Nov2025 12:50:51.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[OWNER] iWawiwu195 :blobcoolcat: : Set own game mode to Survival Mode]
+[25Nov2025 12:52:56.400] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:crafting in 6.135 ms. 7376/7748 recipes are parallelized.
+[25Nov2025 12:53:16.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Stone Age]
+[25Nov2025 12:53:37.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Getting an Upgrade]
+[25Nov2025 12:56:18.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Monster Hunter]
+[25Nov2025 12:58:17.673] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:smelting in 168.1 μs. 284/284 recipes are parallelized.
+[25Nov2025 12:58:20.826] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: santiago123yo[/127.16.210.105:49269] logged in with entity id 2527 at (665.6999999880791, 64.0, -2907.699999988079)
+[25Nov2025 12:58:20.856] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player santiago123yo
+[25Nov2025 12:58:20.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] santiago123yo joined the game
+[25Nov2025 12:58:26.393] [Server thread/INFO] [do_a_barrel_roll/]: Client of santiago123yo accepted server config.
+[25Nov2025 12:58:37.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Acquire Hardware]
+[25Nov2025 12:59:05.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > aviso
+[25Nov2025 12:59:08.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > yo no apague la pc
+[25Nov2025 12:59:14.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > fue mi mama creo
+[25Nov2025 12:59:28.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Isn't It Iron Pick]
+[25Nov2025 12:59:55.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > por mi lo dejaba toda la noche
+[25Nov2025 13:00:01.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ala
+[25Nov2025 13:01:34.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > hay ulti mine oiste?
+[25Nov2025 13:02:41.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el fbt ultimine es el ore excavator
+[25Nov2025 13:03:12.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > le das a la tecla arriba del tab
+[25Nov2025 13:06:22.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ahhh
+[25Nov2025 13:06:26.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > como te va de ping santiago123yo?
+[25Nov2025 13:06:32.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> goti
+[25Nov2025 13:06:43.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> es a brad q le va mal
+[25Nov2025 13:06:50.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> pq vive lejos xd
+[25Nov2025 13:06:53.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> y razer
+[25Nov2025 13:07:02.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> a mi me va muy bien
+[25Nov2025 13:07:06.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pero es q no tiene mucho que ver ps
+[25Nov2025 13:07:34.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> sam
+[25Nov2025 13:07:40.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Suit Up]
+[25Nov2025 13:07:42.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> q tan bueno es el horno de obsi
+[25Nov2025 13:07:53.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > muy bueno
+[25Nov2025 13:08:01.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > (creo)
+[25Nov2025 13:08:03.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> pq tengo el de cristal
+[25Nov2025 13:08:10.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> y cocina todo rapidisimo
+[25Nov2025 13:08:33.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> y me estaba por hacer ese
+[25Nov2025 13:09:51.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Hot Stuff]
+[25Nov2025 13:10:49.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > hay piggas
+[25Nov2025 13:11:12.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> como piggas?
+[25Nov2025 13:11:33.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > piggas ps
+[25Nov2025 13:11:37.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> sam tengo el de obsi
+[25Nov2025 13:11:49.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> para cocinar cristal demora 2.5 segundos aprox
+[25Nov2025 13:12:02.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> muy insano
+[25Nov2025 13:12:04.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el de diamante es mejor creo
+[25Nov2025 13:12:08.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> nono
+[25Nov2025 13:12:18.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> es el de diamante
+[25Nov2025 13:12:22.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> el de cristal
+[25Nov2025 13:12:24.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> y el de obsi
+[25Nov2025 13:13:09.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ahora tengo uno de diamante y oto de obsi siuu
+[25Nov2025 13:14:52.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no creí que fuera tan bn el sv
+[25Nov2025 13:15:04.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> xd
+[25Nov2025 13:15:37.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement ['X' Marks the Spot]
+[25Nov2025 13:15:48.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > PFFF
+[25Nov2025 13:16:01.591] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13377ms or 267 ticks behind
+[25Nov2025 13:16:01.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > El jamon infinito
+[25Nov2025 13:16:07.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> QUEEE
+[25Nov2025 13:16:12.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> q puta suerte
+[25Nov2025 13:17:03.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Amateur Archaeologist]
+[25Nov2025 13:17:04.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> sam
+[25Nov2025 13:17:12.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> se puede usar para algo los spawners?
+[25Nov2025 13:17:20.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no lo sé
+[25Nov2025 13:17:27.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > creo que el evilcraft si deja
+[25Nov2025 13:17:27.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> pq se pueden romper pero despues no funcionan
+[25Nov2025 13:17:50.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > la nta nose, investiga
+[25Nov2025 13:18:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> es q no se de q mod es
+[25Nov2025 13:18:34.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ps lee
+[25Nov2025 13:19:12.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Ice Bucket Challenge]
+[25Nov2025 13:20:05.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > está el carry on por si acaso
+[25Nov2025 13:22:14.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > hay /sethome y tpa
+[25Nov2025 13:26:59.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Diamonds!]
+[25Nov2025 13:27:42.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > me cuesta acostumbrarme a las texturas del brad
+[25Nov2025 13:28:31.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > cabra jodida
+[25Nov2025 13:28:35.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > me empujó
+[25Nov2025 13:29:26.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Not Today, Thank You]
+[25Nov2025 13:39:30.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [First Age]
+[25Nov2025 13:41:54.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Take Aim]
+[25Nov2025 13:44:20.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Sneak 100]
+[25Nov2025 13:52:02.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Barrel Booty]
+[25Nov2025 13:52:26.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Chest Slayer]
+[25Nov2025 13:53:13.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Disme A Dozen]
+[25Nov2025 13:53:22.687] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: santiago123yo lost connection: Disconnected
+[25Nov2025 13:53:22.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] santiago123yo left the game
+[25Nov2025 13:58:26.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Mine Turtle!]
+[25Nov2025 14:17:15.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Cover Me with Diamonds]
+[25Nov2025 14:20:32.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[OWNER] iWawiwu195 :blobcoolcat: : Set own game mode to Spectator Mode]
+[25Nov2025 14:20:34.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[OWNER] iWawiwu195 :blobcoolcat: : Set own game mode to Survival Mode]
+[25Nov2025 14:22:25.875] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5ebe3e4a[id=<null>,name=TheCrixxXD,properties={},legacy=false] (/127.21.98.22:46623) lost connection: Disconnected
+[25Nov2025 14:22:34.040] [ForkJoinPool.commonPool-worker-12/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:TheCrixxXD'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md92011c$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:582) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:581) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md92011c$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:566) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Nov2025 14:22:34.095] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheCrixxXD[/127.21.98.22:52335] logged in with entity id 30461 at (-846.2423847306934, 31.0, -644.6999999880791)
+[25Nov2025 14:22:34.117] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player TheCrixxXD
+[25Nov2025 14:22:34.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD joined the game
+[25Nov2025 14:22:38.947] [Server thread/INFO] [do_a_barrel_roll/]: Client of TheCrixxXD accepted server config.
+[25Nov2025 14:23:00.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > hola vegetta soy jh, que bonito encuentro
+[25Nov2025 14:23:09.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Sky of Beginning]
+[25Nov2025 14:23:19.186] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheCrixxXD lost connection: Disconnected
+[25Nov2025 14:23:19.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD left the game
+[25Nov2025 14:23:19.246] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[25Nov2025 14:24:18.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Enchanter]
+[25Nov2025 14:28:53.531] [ForkJoinPool.commonPool-worker-14/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:TheCrixxXD'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md92011c$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:582) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:581) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md92011c$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:566) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Nov2025 14:28:53.589] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheCrixxXD[/127.21.98.22:49027] logged in with entity id 32714 at (-846.2423847306934, 31.0, -644.6999999880791)
+[25Nov2025 14:28:53.611] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player TheCrixxXD
+[25Nov2025 14:28:53.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD joined the game
+[25Nov2025 14:28:58.113] [Server thread/INFO] [do_a_barrel_roll/]: Client of TheCrixxXD accepted server config.
+[25Nov2025 14:30:03.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > y tus amigos esos especialitos? no van a entrar o qe
+[25Nov2025 14:31:43.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > hay ultimine cris
+[25Nov2025 14:32:01.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > (ore excavator)
+[25Nov2025 14:32:38.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > alv
+[25Nov2025 14:32:43.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > los arboles de redwood
+[25Nov2025 14:32:53.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > 7 stacks de madera de 1 solo arbol
+[25Nov2025 14:47:03.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es la misma pero mejorada...
+[25Nov2025 14:47:19.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no xd
+[25Nov2025 14:47:37.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > osea la puedes teñir
+[25Nov2025 14:47:44.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pero si la rodeas de iron oro o diamante la mejoras
+[25Nov2025 14:48:06.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > yo ya tengo MUCHO espacio xd
+[25Nov2025 14:48:13.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > tengo barriles de diamante y cofres
+[25Nov2025 14:49:07.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > eso era una dungeon xd
+[25Nov2025 14:50:17.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > wtf soy jesus
+[25Nov2025 14:50:29.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > tengo botas de flotacion xd
+[25Nov2025 14:50:31.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > como el terraria
+[25Nov2025 14:51:01.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > yo tengo el jamon infinito ya
+[25Nov2025 14:51:13.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > un jamon infinito xd
+[25Nov2025 14:51:15.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > comida ps
+[25Nov2025 14:51:47.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira el jei
+[25Nov2025 14:52:04.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ps si
+[25Nov2025 14:52:29.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > hay martillos
+[25Nov2025 14:52:32.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > que minan 3x3
+[25Nov2025 14:52:40.498] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RacingX[/127.85.147.6:47059] logged in with entity id 42684 at (-902.4071102757387, 66.0, -945.3688689976257)
+[25Nov2025 14:52:40.519] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player RacingX
+[25Nov2025 14:52:40.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX joined the game
+[25Nov2025 14:52:44.140] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 14:53:31.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el figura creo
+[25Nov2025 14:53:51.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > RacingX eres premium?
+[25Nov2025 14:57:24.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > si le das a la U es la U de USOS
+[25Nov2025 14:57:28.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > si le das a la R
+[25Nov2025 14:57:32.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es R de Receta
+[25Nov2025 14:58:25.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > recuerden que tienen el /sethome y los waypoints
+[25Nov2025 14:58:46.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > hazte la mochila normal de primeras
+[25Nov2025 14:59:01.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX was slain by Skeleton
+[25Nov2025 14:59:01.990] [Server thread/INFO] [gravestone/]: The death ID of player RacingX is 998ca3f6-3805-453c-86a6-7bff1e190270
+[25Nov2025 14:59:03.256] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 14:59:24.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ps es una dungeon
+[25Nov2025 14:59:36.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ps si
+[25Nov2025 14:59:55.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX was slain by Skeleton
+[25Nov2025 14:59:55.104] [Server thread/INFO] [gravestone/]: The death ID of player RacingX is d1a3b25f-d5c6-405b-8cd1-a2ad4f41128a
+[25Nov2025 14:59:56.654] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 15:00:23.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] RacingX> :peped:
+[25Nov2025 15:00:35.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] RacingX> :banana:4
+[25Nov2025 15:00:39.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > :blobderpy:
+[25Nov2025 15:00:43.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] TheCrixxXD> :blobcatpopsicle:
+[25Nov2025 15:01:14.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Smoke On The Water]
+[25Nov2025 15:01:22.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no bueno
+[25Nov2025 15:01:57.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > me puedo tirar pedos xd
+[25Nov2025 15:02:32.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es q no rompiste los spawners
+[25Nov2025 15:03:13.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Close Quarters]
+[25Nov2025 15:04:07.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > petroleo
+[25Nov2025 15:04:13.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > XD
+[25Nov2025 15:04:24.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > esto...
+[25Nov2025 15:04:30.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es lo que tienes que buscar
+[25Nov2025 15:04:36.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ah
+[25Nov2025 15:04:38.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es que me tiro pedos
+[25Nov2025 15:04:43.962] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iWawiwu195 moved wrongly!
+[25Nov2025 15:05:02.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira esto
+[25Nov2025 15:05:11.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > se regenera
+[25Nov2025 15:05:19.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > nah
+[25Nov2025 15:05:25.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > son las stats de tu muerte
+[25Nov2025 15:05:45.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > XD
+[25Nov2025 15:06:03.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > AH
+[25Nov2025 15:06:05.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es q
+[25Nov2025 15:06:08.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > eres tu
+[25Nov2025 15:06:10.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira
+[25Nov2025 15:06:13.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > si me acerco a ti
+[25Nov2025 15:06:29.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > arriba hay
+[25Nov2025 15:06:33.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > una isla del tinkers
+[25Nov2025 15:06:47.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > bueno una isla de slimes
+[25Nov2025 15:07:08.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Hot Stuff]
+[25Nov2025 15:07:34.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > XD
+[25Nov2025 15:08:45.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es la primera cueva de cris y brad
+[25Nov2025 15:08:49.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > yo estaba specteando
+[25Nov2025 15:09:03.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > por cierto racing
+[25Nov2025 15:09:07.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > te muestro un truco
+[25Nov2025 15:09:14.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > de hecho
+[25Nov2025 15:09:16.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > cris está aca
+[25Nov2025 15:09:22.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira
+[25Nov2025 15:09:27.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > sabes la tecla que tienes
+[25Nov2025 15:09:30.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > arriba del tab?
+[25Nov2025 15:09:46.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira
+[25Nov2025 15:10:10.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > para minar todo de golpe
+[25Nov2025 15:10:14.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira
+[25Nov2025 15:10:32.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > te usa hambre y durabilidad
+[25Nov2025 15:11:22.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > VENGAN
+[25Nov2025 15:11:26.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > un mimic
+[25Nov2025 15:11:26.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > un mimic
+[25Nov2025 15:11:27.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > un mimic
+[25Nov2025 15:11:27.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > un mimic
+[25Nov2025 15:11:41.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > matenlo ustedes
+[25Nov2025 15:11:44.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > les da un accesorio
+[25Nov2025 15:11:58.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > JASJASJJSA
+[25Nov2025 15:12:04.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX has made the advancement [Chest Slayer]
+[25Nov2025 15:12:32.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > a no bueno es una basofia
+[25Nov2025 15:12:36.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > lo que dio el mimic
+[25Nov2025 15:12:48.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > un coso para que te hundas mas rapido en el agua
+[25Nov2025 15:13:04.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > de hecho aca hay mercurio
+[25Nov2025 15:13:05.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > xd
+[25Nov2025 15:13:06.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > creo
+[25Nov2025 15:13:09.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Amateur Archaeologist]
+[25Nov2025 15:13:16.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mentira
+[25Nov2025 15:13:19.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no hay mercurio
+[25Nov2025 15:13:19.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > PERO
+[25Nov2025 15:13:21.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > hay algo mejor
+[25Nov2025 15:13:28.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > podemos IR a mercurio
+[25Nov2025 15:13:30.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > xd
+[25Nov2025 15:15:05.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > si ven a un creeper no lo maten xd
+[25Nov2025 15:15:12.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > MIRA
+[25Nov2025 15:15:13.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ven
+[25Nov2025 15:15:17.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Sweet Dreams]
+[25Nov2025 15:15:37.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > los creepers me tienen miedo xd
+[25Nov2025 15:15:47.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira cris
+[25Nov2025 15:16:26.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > oie aunque
+[25Nov2025 15:16:31.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > las botas estas de flotacion
+[25Nov2025 15:16:36.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es medio trol pq
+[25Nov2025 15:16:38.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Suit Up]
+[25Nov2025 15:16:41.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no puedes hacer water drops
+[25Nov2025 15:16:54.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el spy
+[25Nov2025 15:16:55.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > JAJAJAJA
+[25Nov2025 15:17:12.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > a keso le encantaria esto
+[25Nov2025 15:17:18.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > JAAJAJ
+[25Nov2025 15:17:54.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > xd
+[25Nov2025 15:17:58.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > apoco si muy vergas
+[25Nov2025 15:18:18.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > dios
+[25Nov2025 15:18:23.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > me lo voy a quitar
+[25Nov2025 15:18:36.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > XD
+[25Nov2025 15:18:50.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ven hice tunel
+[25Nov2025 15:18:51.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pa bajar
+[25Nov2025 15:19:01.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > si
+[25Nov2025 15:19:02.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pero no
+[25Nov2025 15:19:28.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > llegamos a la bedrock nmms
+[25Nov2025 15:20:03.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el de pizarra es como un horno normal
+[25Nov2025 15:20:08.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > solo que de pizarra xd
+[25Nov2025 15:20:12.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > eh diamant
+[25Nov2025 15:20:19.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Barrel Booty]
+[25Nov2025 15:20:27.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > bajen diamante
+[25Nov2025 15:20:55.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Diamonds!]
+[25Nov2025 15:21:47.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no lo minen
+[25Nov2025 15:21:50.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no es necesario horita
+[25Nov2025 15:22:17.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > eh diamante
+[25Nov2025 15:23:56.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ah
+[25Nov2025 15:23:59.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > dale click con el pico
+[25Nov2025 15:24:03.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Mine Turtle!]
+[25Nov2025 15:24:21.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no la mates xd
+[25Nov2025 15:24:31.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > alv
+[25Nov2025 15:24:52.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > NO ME TIRO
+[25Nov2025 15:25:23.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > alv
+[25Nov2025 15:25:25.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > QUE ESE SO
+[25Nov2025 15:25:35.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ayuda
+[25Nov2025 15:26:22.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Monster Hunter]
+[25Nov2025 15:27:30.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > q soltó?
+[25Nov2025 15:27:56.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el de oro?
+[25Nov2025 15:28:02.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el collarsito de oro?
+[25Nov2025 15:28:09.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > eso te da mas frames de inmunidad
+[25Nov2025 15:28:32.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pontelo w
+[25Nov2025 15:29:23.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ptm
+[25Nov2025 15:29:48.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX tried to swim in lava
+[25Nov2025 15:29:48.528] [Server thread/INFO] [gravestone/]: The death ID of player RacingX is 53099f1d-8841-4c25-9440-f6b344509e91
+[25Nov2025 15:29:49.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > PERO
+[25Nov2025 15:29:54.002] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 15:30:40.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > estan en el piso
+[25Nov2025 15:30:42.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > negro idiota
+[25Nov2025 15:30:53.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > uy, no puedo decir eso
+[25Nov2025 15:30:59.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > papi twitch se enoja
+[25Nov2025 15:31:32.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > twitch? que pagina porno era esa?
+[25Nov2025 15:31:35.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Not Today, Thank You]
+[25Nov2025 15:32:39.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > vete cabron
+[25Nov2025 15:33:32.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no es
+[25Nov2025 15:33:36.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es del xycraft
+[25Nov2025 15:33:59.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > VENGAN
+[25Nov2025 15:34:42.025] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iWawiwu195 was kicked for floating too long!
+[25Nov2025 15:34:42.075] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iWawiwu195 lost connection: Flying is not enabled on this server
+[25Nov2025 15:34:42.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  left the game
+[25Nov2025 15:34:49.396] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iWawiwu195[/127.146.18.249:34755] logged in with entity id 57656 at (-754.3491549924605, -14.975575911786319, -724.8208845547101)
+[25Nov2025 15:34:49.420] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player iWawiwu195
+[25Nov2025 15:34:49.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  joined the game
+[25Nov2025 15:35:04.286] [Server thread/INFO] [do_a_barrel_roll/]: Client of iWawiwu195 accepted server config.
+[25Nov2025 15:35:27.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > UY
+[25Nov2025 15:35:40.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has reached the goal [This Belongs in a Museum]
+[25Nov2025 15:35:49.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > PINCHE RAZER
+[25Nov2025 15:35:51.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ayuda
+[25Nov2025 15:36:09.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ee no
+[25Nov2025 15:36:20.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > nada de eso sirve AHORA
+[25Nov2025 15:36:39.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > los vas a necesitar cuando hagas las maquinas del mod y eso
+[25Nov2025 15:38:07.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira
+[25Nov2025 15:38:08.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ven
+[25Nov2025 15:38:21.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > a tu
+[25Nov2025 15:38:38.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement ['X' Marks the Spot]
+[25Nov2025 15:38:46.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira
+[25Nov2025 15:38:49.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > un sarten
+[25Nov2025 15:38:51.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [A True Source of Evil]
+[25Nov2025 15:39:18.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira RacingX
+[25Nov2025 15:39:20.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > te lo regalo
+[25Nov2025 15:39:55.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [A Realistical Logical Ideologist]
+[25Nov2025 15:40:06.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > la guia del botania
+[25Nov2025 15:40:07.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX has made the advancement [A True Source of Evil]
+[25Nov2025 15:40:20.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > yo la tengo de diamante xd
+[25Nov2025 15:40:28.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > aunque me tengo que hacer una mejora de la mochila
+[25Nov2025 15:40:32.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > que me permite stackear cosas
+[25Nov2025 15:40:35.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mas de 64
+[25Nov2025 15:41:02.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > alv mas cueva aca
+[25Nov2025 15:41:22.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mas cueva
+[25Nov2025 15:41:36.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > en mi base
+[25Nov2025 15:43:16.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > quitalo
+[25Nov2025 15:43:18.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > eee
+[25Nov2025 15:43:22.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es del mod figura
+[25Nov2025 15:43:33.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > popup menu
+[25Nov2025 15:44:56.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el loot es individual
+[25Nov2025 15:46:20.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no digas retrasado
+[25Nov2025 15:46:24.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > cabron grosro
+[25Nov2025 15:46:26.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > tas en stream
+[25Nov2025 15:51:47.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > no
+[25Nov2025 15:51:53.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > normal
+[25Nov2025 15:52:01.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > que lo puedes hacer con eso tambien
+[25Nov2025 15:53:18.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pontela en la espalda
+[25Nov2025 15:53:26.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > espalda
+[25Nov2025 15:53:27.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > espalda
+[25Nov2025 15:53:27.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > espalda
+[25Nov2025 15:53:27.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > espalda
+[25Nov2025 15:53:30.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > la mochila
+[25Nov2025 15:53:35.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > y le das a la B
+[25Nov2025 15:53:50.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ps muevelo+
+[25Nov2025 15:53:57.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pon el de los waypoints en otra tecla
+[25Nov2025 15:53:57.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > xd
+[25Nov2025 15:54:07.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > yo lo tengo en el pad numerico
+[25Nov2025 15:54:12.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > en el 5
+[25Nov2025 15:54:29.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > yo lo tengo en el pad numerico
+[25Nov2025 15:54:32.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > en el 5
+[25Nov2025 15:54:34.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > aunque
+[25Nov2025 15:54:38.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > tienes que desbindear
+[25Nov2025 15:54:40.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > lo del jade
+[25Nov2025 15:54:43.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > todo
+[25Nov2025 15:54:54.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira esto
+[25Nov2025 15:55:24.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ponte aca
+[25Nov2025 15:55:24.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX suffocated in a wall
+[25Nov2025 15:55:24.035] [Server thread/INFO] [gravestone/]: The death ID of player RacingX is 1e603f3f-d0b0-4248-be1c-2c67e9be9fe1
+[25Nov2025 15:55:25.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > XDDD
+[25Nov2025 15:55:28.749] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 15:55:36.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ponte aca
+[25Nov2025 15:55:36.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ponte aca
+[25Nov2025 15:56:07.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > PFF
+[25Nov2025 15:56:15.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > puedo robarte cosas de la mochila
+[25Nov2025 15:56:54.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > usa el ultimine
+[25Nov2025 15:57:11.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ese punto no es
+[25Nov2025 15:57:15.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ese es el anterior
+[25Nov2025 15:57:27.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > j
+[25Nov2025 15:58:07.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ese es el corails tombstone
+[25Nov2025 15:58:13.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > tienes el obituario?
+[25Nov2025 15:58:20.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > tienes el obituario?
+[25Nov2025 15:58:20.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > tienes el obituario?
+[25Nov2025 15:58:21.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > tienes el obituario?
+[25Nov2025 15:58:28.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > dio
+[25Nov2025 15:58:44.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > se
+[25Nov2025 15:59:22.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es que si eres sonso como el racing
+[25Nov2025 15:59:35.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el obituario creo q dice las coords
+[25Nov2025 15:59:46.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > eso no desaparece
+[25Nov2025 15:59:48.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pendejaso
+[25Nov2025 16:00:16.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > dale
+[25Nov2025 16:00:51.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > vamonos
+[25Nov2025 16:00:52.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ven
+[25Nov2025 16:01:05.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > aver pera
+[25Nov2025 16:02:46.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > puto razer
+[25Nov2025 16:03:09.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iWawiwu195 was kicked for floating too long!
+[25Nov2025 16:03:09.774] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iWawiwu195 lost connection: Flying is not enabled on this server
+[25Nov2025 16:03:09.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  left the game
+[25Nov2025 16:03:17.090] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iWawiwu195[/127.146.18.249:49877] logged in with entity id 67039 at (-691.30439940838, 73.7531999805212, -667.3977122705151)
+[25Nov2025 16:03:17.109] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player iWawiwu195
+[25Nov2025 16:03:17.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  joined the game
+[25Nov2025 16:03:32.702] [Server thread/INFO] [do_a_barrel_roll/]: Client of iWawiwu195 accepted server config.
+[25Nov2025 16:03:48.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > eso que
+[25Nov2025 16:04:00.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > AAAH
+[25Nov2025 16:04:02.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > una escoba
+[25Nov2025 16:04:07.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > del evilcraft
+[25Nov2025 16:04:16.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > es el combustible
+[25Nov2025 16:04:51.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [We Need to Go Deeper]
+[25Nov2025 16:04:51.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Incendium]
+[25Nov2025 16:05:01.409] [Server thread/INFO] [do_a_barrel_roll/]: Client of iWawiwu195 accepted server config.
+[25Nov2025 16:05:01.457] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14194ms or 283 ticks behind
+[25Nov2025 16:05:01.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > uh
+[25Nov2025 16:05:13.968] [Server thread/ERROR] [noobanidus.mods.lootr.api.LootrAPI/]: There are over 100 entries in the conversion list without aggressive mode enabled. This may cause TPS issues. If TPS issues persist after first launch, consider enabling aggressive mode in the configuration.
+[25Nov2025 16:05:14.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Strange Biomes]
+[25Nov2025 16:05:20.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > emmm
+[25Nov2025 16:05:21.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > chikes}
+[25Nov2025 16:05:24.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [We Need to Go Deeper]
+[25Nov2025 16:05:24.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Incendium]
+[25Nov2025 16:05:25.354] [Server thread/INFO] [do_a_barrel_roll/]: Client of TheCrixxXD accepted server config.
+[25Nov2025 16:05:26.150] [Worker-Main-168/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/68091, l='ServerLevel[world]', x=-237.00, y=31.00, z=-213.00] as it would cause deadlock
+[25Nov2025 16:05:49.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX has made the advancement [We Need to Go Deeper]
+[25Nov2025 16:05:49.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX has made the advancement [Incendium]
+[25Nov2025 16:05:50.322] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:06:03.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > en teoria
+[25Nov2025 16:06:08.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > hay mod de nuevos biomas
+[25Nov2025 16:06:14.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el inferium
+[25Nov2025 16:06:20.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > aca
+[25Nov2025 16:06:43.927] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/68414, l='ServerLevel[world]', x=-130.79, y=43.02, z=-167.37] died: Restless Spirit starved to death
+[25Nov2025 16:06:43.929] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/68417, l='ServerLevel[world]', x=-123.37, y=36.22, z=-135.79] died: Restless Spirit starved to death
+[25Nov2025 16:06:43.931] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/68421, l='ServerLevel[world]', x=-119.91, y=39.90, z=-144.52] died: Restless Spirit starved to death
+[25Nov2025 16:07:12.786] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/68483, l='ServerLevel[world]', x=-122.04, y=41.60, z=-92.66] died: Restless Spirit starved to death
+[25Nov2025 16:08:01.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > em chicos
+[25Nov2025 16:08:08.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > aca hay dungeon
+[25Nov2025 16:08:47.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  has made the advancement [Into Fire]
+[25Nov2025 16:08:55.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > qn te manda
+[25Nov2025 16:09:25.234] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/69611, l='ServerLevel[world]', x=-163.19, y=35.49, z=-107.30] died: Restless Spirit starved to death
+[25Nov2025 16:09:48.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > click
+[25Nov2025 16:10:02.629] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/70023, l='ServerLevel[world]', x=-119.55, y=41.55, z=-135.57] died: Restless Spirit starved to death
+[25Nov2025 16:10:02.631] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/70026, l='ServerLevel[world]', x=-110.65, y=46.65, z=-144.51] died: Restless Spirit starved to death
+[25Nov2025 16:10:02.633] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/70032, l='ServerLevel[world]', x=-96.40, y=42.22, z=-140.47] died: Restless Spirit starved to death
+[25Nov2025 16:10:27.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pero pegale
+[25Nov2025 16:10:27.129] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/70180, l='ServerLevel[world]', x=-188.51, y=50.36, z=-116.59] died: Restless Spirit starved to death
+[25Nov2025 16:10:56.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX was doomed to fall by Hoglin
+[25Nov2025 16:10:56.936] [Server thread/INFO] [gravestone/]: The death ID of player RacingX is cea64d3d-7fa6-4175-9f11-a4d8dfdaf3a6
+[25Nov2025 16:10:59.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ...
+[25Nov2025 16:11:06.968] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:11:15.784] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/70966, l='ServerLevel[world]', x=-80.20, y=79.40, z=-130.95] died: Restless Spirit starved to death
+[25Nov2025 16:11:15.786] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/70969, l='ServerLevel[world]', x=-56.87, y=75.56, z=-123.10] died: Restless Spirit starved to death
+[25Nov2025 16:11:15.789] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/70972, l='ServerLevel[world]', x=-62.49, y=75.61, z=-114.51] died: Restless Spirit starved to death
+[25Nov2025 16:11:15.792] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/70975, l='ServerLevel[world]', x=-65.13, y=82.71, z=-121.35] died: Restless Spirit starved to death
+[25Nov2025 16:11:29.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pero ta roto
+[25Nov2025 16:11:32.952] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:11:56.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > creo que puedes craftear un spawner con energia
+[25Nov2025 16:12:06.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > cabron nadie te manda
+[25Nov2025 16:12:11.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > te dijimos que vinieras
+[25Nov2025 16:12:19.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > donde moriste?
+[25Nov2025 16:12:25.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > dios
+[25Nov2025 16:13:02.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX tried to swim in lava
+[25Nov2025 16:13:02.877] [Server thread/INFO] [gravestone/]: The death ID of player RacingX is b1c501de-795e-45a1-88cd-cb6a641d0bab
+[25Nov2025 16:13:04.554] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:13:08.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[OWNER] iWawiwu195 :blobcoolcat: : Set own game mode to Creative Mode]
+[25Nov2025 16:13:18.006] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:13:20.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[OWNER] iWawiwu195 :blobcoolcat: : Set own game mode to Survival Mode]
+[25Nov2025 16:14:12.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > aver
+[25Nov2025 16:14:29.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > cris ven
+[25Nov2025 16:14:59.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > donde moriste?
+[25Nov2025 16:15:00.480] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/74924, l='ServerLevel[world]', x=-183.40, y=64.97, z=-71.33] died: Restless Spirit starved to death
+[25Nov2025 16:15:00.482] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/74927, l='ServerLevel[world]', x=-176.83, y=73.21, z=-79.00] died: Restless Spirit starved to death
+[25Nov2025 16:15:27.132] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/75003, l='ServerLevel[world]', x=-177.69, y=43.01, z=-104.29] died: Restless Spirit starved to death
+[25Nov2025 16:15:27.135] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/75006, l='ServerLevel[world]', x=-198.82, y=38.25, z=-88.20] died: Restless Spirit starved to death
+[25Nov2025 16:15:52.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX tried to swim in lava
+[25Nov2025 16:15:52.835] [Server thread/INFO] [gravestone/]: The death ID of player RacingX is b3fcc44c-7030-4779-9963-8c6ac494a0e1
+[25Nov2025 16:15:53.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > DIOS
+[25Nov2025 16:15:57.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > este idsiota
+[25Nov2025 16:15:57.400] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:15:59.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > pq te tiras
+[25Nov2025 16:16:08.732] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/75086, l='ServerLevel[world]', x=-115.91, y=48.62, z=-95.56] died: Restless Spirit starved to death
+[25Nov2025 16:16:08.734] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/75089, l='ServerLevel[world]', x=-145.64, y=46.91, z=-102.77] died: Restless Spirit starved to death
+[25Nov2025 16:16:24.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ahora si
+[25Nov2025 16:16:34.082] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:16:50.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > dios...
+[25Nov2025 16:16:54.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > Y LA OTRA?
+[25Nov2025 16:17:02.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ._.
+[25Nov2025 16:17:25.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > nono
+[25Nov2025 16:17:28.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > donde fue que morist
+[25Nov2025 16:17:33.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > mira bn los puntos cabron
+[25Nov2025 16:17:47.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[OWNER] iWawiwu195 :blobcoolcat: : Set own game mode to Spectator Mode]
+[25Nov2025 16:17:55.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > esta aca imbecil
+[25Nov2025 16:17:56.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[OWNER] iWawiwu195 :blobcoolcat: : Set own game mode to Creative Mode]
+[25Nov2025 16:18:41.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ...
+[25Nov2025 16:18:41.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX tried to swim in lava
+[25Nov2025 16:18:41.330] [Server thread/INFO] [gravestone/]: The death ID of player RacingX is 63a1c3e3-2c4e-4e4f-a20f-472378cd3b45
+[25Nov2025 16:18:42.226] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/75567, l='ServerLevel[world]', x=-79.46, y=72.28, z=-112.66] died: Restless Spirit starved to death
+[25Nov2025 16:18:45.743] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:18:57.302] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:18:59.022] [Server thread/WARN] [artifacts.Artifacts/]: Could not equip item '1 universal_attractor' on spawned entity 'Piglin['Piglin'/75828, l='ServerLevel[world]', x=-96.50, y=114.00, z=-65.50]'
+[25Nov2025 16:19:11.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > si
+[25Nov2025 16:19:30.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > yo me voy ya
+[25Nov2025 16:19:33.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[OWNER] iWawiwu195 :blobcoolcat: : Set own game mode to Survival Mode]
+[25Nov2025 16:19:48.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[OWNER] iWawiwu195 :blobcoolcat: : Set own game mode to Creative Mode]
+[25Nov2025 16:19:54.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > el que
+[25Nov2025 16:20:07.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[OWNER] iWawiwu195 :blobcoolcat: : Set own game mode to Survival Mode]
+[25Nov2025 16:20:10.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[OWNER] iWawiwu195 :blobcoolcat: > ps nose
+[25Nov2025 16:20:19.276] [Server thread/INFO] [do_a_barrel_roll/]: Client of iWawiwu195 accepted server config.
+[25Nov2025 16:20:19.281] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2067ms or 41 ticks behind
+[25Nov2025 16:20:28.054] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/75936, l='ServerLevel[world]', x=-183.54, y=64.37, z=-89.50] died: Restless Spirit starved to death
+[25Nov2025 16:20:28.161] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iWawiwu195 lost connection: Disconnected
+[25Nov2025 16:20:28.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [OWNER] iWawiwu195 :blobcoolcat:  left the game
+[25Nov2025 16:20:43.009] [Server thread/INFO] [do_a_barrel_roll/]: Client of TheCrixxXD accepted server config.
+[25Nov2025 16:20:44.414] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:21:44.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX has made the advancement [First Age]
+[25Nov2025 16:29:54.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX has made the advancement [Not Today, Thank You]
+[25Nov2025 16:36:13.387] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ymqteo[/127.78.239.98:37467] logged in with entity id 81248 at (30.5, 73.0, -20.5)
+[25Nov2025 16:36:13.407] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ymqteo
+[25Nov2025 16:36:13.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ymqteo joined the game
+[25Nov2025 16:36:19.257] [Server thread/INFO] [do_a_barrel_roll/]: Client of ymqteo accepted server config.
+[25Nov2025 16:38:48.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ymqteo has made the advancement [Sweet Dreams]
+[25Nov2025 16:40:12.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ymqteo has made the advancement [Acquire Hardware]
+[25Nov2025 16:40:34.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ymqteo has made the advancement [Isn't It Iron Pick]
+[25Nov2025 16:41:07.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ymqteo has made the advancement [Not Today, Thank You]
+[25Nov2025 16:41:24.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ymqteo has made the advancement [Monster Hunter]
+[25Nov2025 16:44:12.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ymqteo has made the advancement [Stone Age]
+[25Nov2025 16:49:02.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX has made the advancement [Best Friends Forever]
+[25Nov2025 16:50:35.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] TheCrixxXD> +
+[25Nov2025 16:50:51.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ymqteo has made the advancement [Diamonds!]
+[25Nov2025 16:50:53.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX was slain by Husk
+[25Nov2025 16:50:53.533] [Server thread/INFO] [gravestone/]: The death ID of player RacingX is 0322caf1-4c70-4d60-bcf8-a1a114aea832
+[25Nov2025 16:50:57.127] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 16:51:24.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD was slain by Husk
+[25Nov2025 16:51:24.679] [Server thread/INFO] [gravestone/]: The death ID of player TheCrixxXD is 70c3c608-9e5e-4317-924a-c54992f27b9a
+[25Nov2025 16:51:27.002] [Server thread/INFO] [do_a_barrel_roll/]: Client of TheCrixxXD accepted server config.
+[25Nov2025 16:51:29.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] pff
+[25Nov2025 16:51:48.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] que jodido
+[25Nov2025 16:51:55.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ymqteo> :v
+[25Nov2025 16:52:02.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ymqteo> mi rol de miembro
+[25Nov2025 16:53:29.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ymqteo has made the advancement [Suit Up]
+[25Nov2025 16:53:31.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Added ymqteo to team [MIEMBRO]
+[25Nov2025 16:54:02.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo has made the advancement [Barrel Booty]
+[25Nov2025 16:54:13.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo has made the advancement [Chest Slayer]
+[25Nov2025 16:54:18.222] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:blasting in 125.0 μs. 145/145 recipes are parallelized.
+[25Nov2025 16:57:05.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo has made the advancement [Hot Stuff]
+[25Nov2025 16:59:55.758] [ForkJoinPool.commonPool-worker-42/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Pl4t3ado'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md92011c$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:582) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:581) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md92011c$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:566) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Nov2025 16:59:55.812] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pl4t3ado[/127.147.187.144:32873] logged in with entity id 93097 at (25.5, 73.0, -17.5)
+[25Nov2025 16:59:55.832] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Pl4t3ado
+[25Nov2025 16:59:55.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado joined the game
+[25Nov2025 17:00:03.094] [Server thread/INFO] [do_a_barrel_roll/]: Client of Pl4t3ado accepted server config.
+[25Nov2025 17:00:17.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD has made the advancement [Disme A Dozen]
+[25Nov2025 17:00:32.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo has made the advancement [Cover Me with Diamonds]
+[25Nov2025 17:00:57.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pl4t3ado> alfin pude unirme
+[25Nov2025 17:01:17.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] ymqteo> unete al dc
+[25Nov2025 17:01:26.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] ymqteo> a la call
+[25Nov2025 17:01:26.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pl4t3ado> al chat de voz?
+[25Nov2025 17:01:28.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] ymqteo> si.
+[25Nov2025 17:01:36.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pl4t3ado> pasa que da verguenza hablar jaja
+[25Nov2025 17:01:41.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo has made the advancement ['X' Marks the Spot]
+[25Nov2025 17:03:01.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pl4t3ado> puedo ir donde ustedes?
+[25Nov2025 17:03:36.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Acquire Hardware]
+[25Nov2025 17:03:41.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pl4t3ado> te amo
+[25Nov2025 17:04:15.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pl4t3ado> esto es una base?
+[25Nov2025 17:04:28.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Barrel Booty]
+[25Nov2025 17:04:42.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pl4t3ado> puedo agarrar cosas de los cofres?
+[25Nov2025 17:04:52.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] TheCrixxXD> agarra todo de ahi xq es una mini dungeon xd
+[25Nov2025 17:04:58.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Suit Up]
+[25Nov2025 17:05:48.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Isn't It Iron Pick]
+[25Nov2025 17:06:22.188] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 33325ms or 666 ticks behind
+[25Nov2025 17:06:22.244] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheCrixxXD lost connection: Disconnected
+[25Nov2025 17:06:22.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD left the game
+[25Nov2025 17:06:22.249] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RacingX lost connection: Disconnected
+[25Nov2025 17:06:22.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX left the game
+[25Nov2025 17:06:22.254] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ymqteo lost connection: Disconnected
+[25Nov2025 17:06:22.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo left the game
+[25Nov2025 17:06:22.259] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pl4t3ado lost connection: Disconnected
+[25Nov2025 17:06:22.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado left the game
+[25Nov2025 17:06:26.376] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ymqteo[/127.78.239.98:55093] logged in with entity id 100524 at (-1456.4279317276378, -57.0, -150.42611916377714)
+[25Nov2025 17:06:26.408] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ymqteo
+[25Nov2025 17:06:26.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo joined the game
+[25Nov2025 17:06:27.253] [ForkJoinPool.commonPool-worker-45/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:TheCrixxXD'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md92011c$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:582) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:581) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md92011c$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:566) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Nov2025 17:06:27.292] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheCrixxXD[/127.21.98.22:47061] logged in with entity id 101079 at (-1555.4525526256832, 63.0, -453.17431955073596)
+[25Nov2025 17:06:27.318] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player TheCrixxXD
+[25Nov2025 17:06:27.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] TheCrixxXD joined the game
+[25Nov2025 17:06:36.273] [Server thread/INFO] [do_a_barrel_roll/]: Client of ymqteo accepted server config.
+[25Nov2025 17:06:38.285] [Server thread/INFO] [do_a_barrel_roll/]: Client of TheCrixxXD accepted server config.
+[25Nov2025 17:06:45.233] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6ffd2ed[id=<null>,name=Pl4t3ado,properties={},legacy=false] (/127.147.187.144:34573) lost connection: Disconnected
+[25Nov2025 17:06:51.226] [ForkJoinPool.commonPool-worker-45/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Pl4t3ado'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:128) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:99) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md92011c$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:582) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:581) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md92011c$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:566) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Nov2025 17:06:51.253] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pl4t3ado[/127.147.187.144:37713] logged in with entity id 102037 at (-1547.546548406049, 112.0, -516.0270565788101)
+[25Nov2025 17:06:51.270] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Pl4t3ado
+[25Nov2025 17:06:51.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado joined the game
+[25Nov2025 17:07:01.437] [Server thread/INFO] [do_a_barrel_roll/]: Client of Pl4t3ado accepted server config.
+[25Nov2025 17:07:02.035] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6c71fabc[id=<null>,name=RacingX,properties={},legacy=false] (/127.85.147.6:57621) lost connection: Disconnected
+[25Nov2025 17:07:09.703] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RacingX[/127.85.147.6:43273] logged in with entity id 102600 at (-528.3875735555903, 72.0, -1725.46263586734)
+[25Nov2025 17:07:09.722] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player RacingX
+[25Nov2025 17:07:09.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX joined the game
+[25Nov2025 17:07:17.512] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 17:07:35.536] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ymqteo lost connection: Disconnected
+[25Nov2025 17:07:35.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo left the game
+[25Nov2025 17:07:38.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX has made the advancement [The Lighthouse]
+[25Nov2025 17:07:55.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Amateur Archaeologist]
+[25Nov2025 17:08:17.845] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[25Nov2025 17:08:17.846] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[25Nov2025 17:08:18.414] [Worker-Main-168/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[25Nov2025 17:08:18.414] [Worker-Main-168/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[25Nov2025 17:08:18.430] [Worker-Main-168/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[25Nov2025 17:08:18.432] [Worker-Main-168/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[25Nov2025 17:08:18.458] [Worker-Main-168/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[25Nov2025 17:08:18.460] [Worker-Main-168/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[25Nov2025 17:08:18.468] [Worker-Main-168/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[25Nov2025 17:08:18.469] [Worker-Main-168/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[25Nov2025 17:08:25.606] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10142ms or 202 ticks behind
+[25Nov2025 17:09:05.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement ['X' Marks the Spot]
+[25Nov2025 17:11:07.946] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ymqteo[/127.78.239.98:60869] logged in with entity id 104924 at (-1555.584569267048, 63.0, -410.1966845318966)
+[25Nov2025 17:11:07.962] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ymqteo
+[25Nov2025 17:11:07.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo joined the game
+[25Nov2025 17:11:12.684] [Server thread/INFO] [do_a_barrel_roll/]: Client of ymqteo accepted server config.
+[25Nov2025 17:11:47.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pl4t3ado> van a hacer la base en el agua?
+[25Nov2025 17:12:04.134] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RacingX lost connection: Disconnected
+[25Nov2025 17:12:04.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX left the game
+[25Nov2025 17:12:14.447] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RacingX[/127.85.147.6:36027] logged in with entity id 105708 at (-568.5454551592828, 64.0, -1686.825568199445)
+[25Nov2025 17:12:14.465] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player RacingX
+[25Nov2025 17:12:14.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX joined the game
+[25Nov2025 17:12:19.693] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 17:12:19.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX faded away.
+[25Nov2025 17:12:19.962] [Server thread/INFO] [gravestone/]: The death ID of player RacingX is a3dade7c-3b1b-48ff-a9f3-1e53f3eff1c8
+[25Nov2025 17:12:21.042] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ymqteo lost connection: Disconnected
+[25Nov2025 17:12:21.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo left the game
+[25Nov2025 17:12:21.955] [Server thread/INFO] [do_a_barrel_roll/]: Client of RacingX accepted server config.
+[25Nov2025 17:19:10.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Monster Hunter]
+[25Nov2025 17:21:46.706] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: santiago123yo[/127.16.210.105:35233] logged in with entity id 111654 at (664.498419827819, 64.0, -2903.049159573899)
+[25Nov2025 17:21:46.723] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player santiago123yo
+[25Nov2025 17:21:46.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] santiago123yo joined the game
+[25Nov2025 17:21:52.607] [Server thread/INFO] [do_a_barrel_roll/]: Client of santiago123yo accepted server config.
+[25Nov2025 17:22:11.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> llego su papi
+[25Nov2025 17:22:22.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> no esas manzanas estan bien jodidas
+[25Nov2025 17:22:26.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> te sacan pta vida
+[25Nov2025 17:22:38.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ya hice esas putos
+[25Nov2025 17:22:46.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> me metio el pilin la manzana
+[25Nov2025 17:22:48.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> cris
+[25Nov2025 17:22:54.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> quieres algo?
+[25Nov2025 17:23:31.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> q ocupas?
+[25Nov2025 17:23:34.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Sky of Beginning]
+[25Nov2025 17:23:41.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> a
+[25Nov2025 17:23:42.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ok
+[25Nov2025 17:23:47.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> agarro ahora :D
+[25Nov2025 17:24:02.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> pasa algo si agarro de aca?
+[25Nov2025 17:24:06.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> o no hay pedo
+[25Nov2025 17:24:50.999] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/111508, l='ServerLevel[world]', x=-571.75, y=63.00, z=-1693.57] died, message: 'Farmer was slain by [MIEMBRO] RacingX'
+[25Nov2025 17:25:49.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> toma
+[25Nov2025 17:26:02.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> XD
+[25Nov2025 17:26:07.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ahora quieres piedra?
+[25Nov2025 17:26:08.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Safe Haven]
+[25Nov2025 17:26:34.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> nmms tengo todo menos madera XDD
+[25Nov2025 17:26:42.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> la quieres cocinada?
+[25Nov2025 17:26:44.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Call For Adventure]
+[25Nov2025 17:27:01.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ?
+[25Nov2025 17:27:06.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> la quieres cocinada?
+[25Nov2025 17:27:12.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> esta el garry up
+[25Nov2025 17:27:14.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> mira
+[25Nov2025 17:27:32.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> quieres otro cofre de piedra??
+[25Nov2025 17:28:01.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> mira mi mochila
+[25Nov2025 17:28:16.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> mira el tamaño
+[25Nov2025 17:28:22.098] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5434ms or 108 ticks behind
+[25Nov2025 17:28:33.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> mira
+[25Nov2025 17:28:42.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Pl4t3ado> -1914 98 65 caballos
+[25Nov2025 17:28:44.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> es de diamante la mochila
+[25Nov2025 17:28:49.362] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=216, y=47, z=211}
+[25Nov2025 17:28:51.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> no agarres nada q estoy mirando tu en vivo
+[25Nov2025 17:29:01.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ahora te traigo 32 diamantes
+[25Nov2025 17:29:02.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> :D
+[25Nov2025 17:29:06.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> esperame tantitio
+[25Nov2025 17:29:11.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> hacete esto despues
+[25Nov2025 17:29:20.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> mina 3x3
+[25Nov2025 17:29:33.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> sip
+[25Nov2025 17:29:40.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> nos va a meter el pilin
+[25Nov2025 17:29:47.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> LECHE???
+[25Nov2025 17:30:29.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> cris quieres ver un mob?
+[25Nov2025 17:30:36.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> bien chingon
+[25Nov2025 17:30:44.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> mob no mod
+[25Nov2025 17:30:56.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> oc
+[25Nov2025 17:31:02.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> pq nos va a matar de un hit
+[25Nov2025 17:31:04.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> creo
+[25Nov2025 17:31:07.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> no lo vi aun
+[25Nov2025 17:31:14.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> pero esta en una caja de pandora por eso
+[25Nov2025 17:31:14.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> :D
+[25Nov2025 17:31:16.152] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ymqteo[/127.78.239.98:47267] logged in with entity id 120766 at (-1557.2318759024304, 59.77345621631491, -418.57996172966864)
+[25Nov2025 17:31:16.171] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ymqteo
+[25Nov2025 17:31:16.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo joined the game
+[25Nov2025 17:31:21.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo drowned
+[25Nov2025 17:31:21.649] [Server thread/INFO] [gravestone/]: The death ID of player ymqteo is 695b9fdd-c4ef-4fde-b7ad-7c6389ab7433
+[25Nov2025 17:31:21.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> mateo cabron
+[25Nov2025 17:31:22.744] [Server thread/INFO] [do_a_barrel_roll/]: Client of ymqteo accepted server config.
+[25Nov2025 17:31:26.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> XDD
+[25Nov2025 17:31:28.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] TheCrixxXD> XD
+[25Nov2025 17:31:37.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> q se elimine el juego mejor
+[25Nov2025 17:31:47.546] [Server thread/INFO] [do_a_barrel_roll/]: Client of ymqteo accepted server config.
+[25Nov2025 17:32:17.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> rompe tu tumba
+[25Nov2025 17:32:29.594] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ymqteo lost connection: Disconnected
+[25Nov2025 17:32:29.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo left the game
+[25Nov2025 17:32:32.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> con /back
+[25Nov2025 17:32:35.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> te dije q habia tonto
+[25Nov2025 17:32:47.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> solo /back
+[25Nov2025 17:32:57.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> pero es al ultimo donde moriste
+[25Nov2025 17:33:59.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> tiene q crecer una tortuga chiquita
+[25Nov2025 17:34:16.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> cris si ocupas obsi me dices
+[25Nov2025 17:34:21.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> q tengo casi 1 stack :D
+[25Nov2025 17:34:44.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> moises XDD
+[25Nov2025 17:34:57.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> no
+[25Nov2025 17:35:02.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> fue judas imbecil
+[25Nov2025 17:35:10.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ve a leer la biblia mejor
+[25Nov2025 17:35:58.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> nmms
+[25Nov2025 17:36:04.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Sweet Dreams]
+[25Nov2025 17:36:09.206] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ymqteo[/127.78.239.98:54997] logged in with entity id 124724 at (-1555.4430410174791, 64.0, -417.9645626035177)
+[25Nov2025 17:36:09.221] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ymqteo
+[25Nov2025 17:36:09.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo joined the game
+[25Nov2025 17:36:16.946] [Server thread/INFO] [do_a_barrel_roll/]: Client of ymqteo accepted server config.
+[25Nov2025 17:36:21.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> q
+[25Nov2025 17:36:33.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> estoy buscando diamantes para el jodido del cris
+[25Nov2025 17:36:44.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> yo ya encontre 2
+[25Nov2025 17:36:47.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> no te metas aun
+[25Nov2025 17:36:50.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pl4t3ado has made the advancement [Stone Age]
+[25Nov2025 17:36:52.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> te van a meter el pilin
+[25Nov2025 17:37:04.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> a mi me lo metieron imaginate a ti
+[25Nov2025 17:37:29.243] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ymqteo lost connection: Disconnected
+[25Nov2025 17:37:29.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo left the game
+[25Nov2025 17:37:31.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> na
+[25Nov2025 17:37:40.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> pero te pegan 5 y mueres
+[25Nov2025 17:38:17.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> zzz
+[25Nov2025 17:38:36.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> lo unico q hicieron esta temporada fue ganarnos
+[25Nov2025 17:38:44.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> gigis
+[25Nov2025 17:39:07.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> XDDD
+[25Nov2025 17:39:32.149] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[25Nov2025 17:39:48.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> dices?
+[25Nov2025 17:39:58.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> obvio no
+[25Nov2025 17:40:15.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ojala estuviera en mi prima
+[25Nov2025 17:40:48.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> nmms
+[25Nov2025 17:40:56.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> igual peor si estuvieras en peru
+[25Nov2025 17:41:01.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> te sacan con lanzas
+[25Nov2025 17:41:26.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> sabra dios xd
+[25Nov2025 17:41:40.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> estas caminando?
+[25Nov2025 17:41:42.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> q bueno
+[25Nov2025 17:41:50.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> q bueno q caminas
+[25Nov2025 17:42:45.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> no
+[25Nov2025 17:42:48.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> ya prove
+[25Nov2025 17:42:58.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> callate
+[25Nov2025 17:43:06.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> eskrivo komo kiero
+[25Nov2025 17:43:08.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> XD
+[25Nov2025 17:43:12.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> q asco me dio hacer eso
+[25Nov2025 17:43:59.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> XD
+[25Nov2025 17:44:01.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> baja
+[25Nov2025 17:44:06.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> estoy en -53 :D
+[25Nov2025 17:44:17.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> mi base esta por ahi
+[25Nov2025 17:44:30.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> noup
+[25Nov2025 17:45:28.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> le voy a explotar todo gigis
+[25Nov2025 17:45:38.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> a
+[25Nov2025 17:45:41.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> fuckd
+[25Nov2025 17:45:46.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> retiro lo dicho :D
+[25Nov2025 17:45:50.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> era todo bait
+[25Nov2025 17:46:05.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> afk
+[25Nov2025 17:46:10.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <[MIEMBRO] santiago123yo> 8 horas
+[25Nov2025 17:50:53.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX has made the advancement [Penteconter]
+[25Nov2025 17:54:37.199] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ymqteo[/127.78.239.98:45999] logged in with entity id 135630 at (-1545.210904735041, 63.875, -419.3211865597192)
+[25Nov2025 17:54:37.215] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ymqteo
+[25Nov2025 17:54:37.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] ymqteo joined the game
+[25Nov2025 17:54:44.497] [Server thread/INFO] [do_a_barrel_roll/]: Client of ymqteo accepted server config.
+[25Nov2025 18:00:09.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MIEMBRO] RacingX has made the advancement [Ice Bucket Challenge]
